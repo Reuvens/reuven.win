@@ -43,7 +43,6 @@ function loadRedirects() {
     var description = data[rowStart + 4]["gs$cell"]["$t"];
 
     redirects_dict[short_name] = new Redirect(timestamp, short_name, destination, category, description);
-		console.log(redirects_dict[short_name]);
   }
 
   return redirects_dict;
