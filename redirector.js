@@ -11,5 +11,6 @@ $(document).ready(function () {
 		window.location.replace(destination);
 	} else {
 		console.log("No such link: " + source_name);
+		window.location.replace("https://docs.google.com/forms/d/e/1FAIpQLSfZOTDiqlHhM3ycHXuo6rgvcMrFZcYDcBEHqQ1eVn6iD_7rvA/viewform");
 	}
 });
